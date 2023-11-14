@@ -125,14 +125,6 @@ app.post("/api/mail/meta", meta);
 //routing endpoints
 app.post("/api/mail/metafa", metafa);
 
-// Serve static files from the React build folder
-app.use(express.static(path.join(__dirname, "trav/build")));
-
-// Handle all other routes with index.html
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "trav/build", "index.html"));
-});
-
 // Start the server
 const PORT = 3000;
 app.listen(PORT, () => {
